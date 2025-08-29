@@ -1,0 +1,9 @@
+# Dependencies
+/node_modules
+.env
+*.log
+.npm
+.eslintcache
+.vscode/
+*.sh
+*.md
