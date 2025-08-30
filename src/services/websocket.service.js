@@ -12,7 +12,10 @@ class WebSocketService {
     
     this.io = new Server(server, {
       cors: {
-        origin: "http://localhost:4200",
+        origin: [
+          "http://localhost:4200",
+          "http://task-management-alb-1343488495.eu-north-1.elb.amazonaws.com"
+        ],
         methods: ["GET", "POST"],
         credentials: true
       }

@@ -103,7 +103,8 @@ const corsOptions = {
       'http://192.168.1.34:4200',
       'http://192.168.1.34:3000',
       'http://192.168.1.37:4200',
-      'http://192.168.1.37:3000'
+      'http://192.168.1.37:3000',
+      'http://task-management-alb-1343488495.eu-north-1.elb.amazonaws.com'
     ];
     
     const allowedPatterns = [
