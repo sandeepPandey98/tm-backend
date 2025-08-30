@@ -3,10 +3,8 @@ name: Deploy Backend to AWS ECS
 on:
   push:
     branches: [ main ]
-    paths: [ 'tm-backend/**' ]
   pull_request:
     branches: [ main ]
-    paths: [ 'tm-backend/**' ]
 
 env:
   AWS_REGION: eu-north-1
